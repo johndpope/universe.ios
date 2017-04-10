@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Planet View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="UGPlanetViewController" customModule="Universe3" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wn3-nq-Rmk"/>
+                        <viewControllerLayoutGuide type="bottom" id="0zs-Ye-Vce"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ki4-an-CwP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" sceneName="planet.scn" translatesAutoresizingMaskIntoConstraints="NO" id="Joc-bR-5V9" customClass="UGPlanetView" customModule="Universe3" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </sceneKitView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WbA-ON-TuO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="75"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rRX-3C-HSe">
+                                        <rect key="frame" x="8" y="22" width="359" height="30"/>
+                                        <state key="normal" title="Satellite"/>
+                                        <connections>
+                                            <action selector="showSatellite:" destination="BV1-FR-VrT" eventType="touchUpInside" id="HZX-Y0-d4v"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="rRX-3C-HSe" secondAttribute="trailing" constant="8" id="2AQ-V0-Adi"/>
+                                    <constraint firstItem="rRX-3C-HSe" firstAttribute="leading" secondItem="WbA-ON-TuO" secondAttribute="leading" constant="8" id="K47-RL-VwT"/>
+                                    <constraint firstAttribute="height" constant="75" id="Kb6-rc-IHz"/>
+                                    <constraint firstAttribute="bottom" secondItem="rRX-3C-HSe" secondAttribute="bottom" constant="23" id="jNt-2v-Pzb"/>
+                                    <constraint firstItem="rRX-3C-HSe" firstAttribute="top" secondItem="WbA-ON-TuO" secondAttribute="top" constant="22" id="mvU-6x-2RO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Joc-bR-5V9" firstAttribute="top" secondItem="Ki4-an-CwP" secondAttribute="top" id="63o-lE-KAs"/>
+                            <constraint firstAttribute="trailing" secondItem="Joc-bR-5V9" secondAttribute="trailing" id="PHL-VA-fWG"/>
+                            <constraint firstAttribute="trailing" secondItem="WbA-ON-TuO" secondAttribute="trailing" id="QNr-5c-iYe"/>
+                            <constraint firstItem="0zs-Ye-Vce" firstAttribute="top" secondItem="Joc-bR-5V9" secondAttribute="bottom" id="agU-Tb-tPN"/>
+                            <constraint firstItem="WbA-ON-TuO" firstAttribute="top" secondItem="Ki4-an-CwP" secondAttribute="top" id="iKe-p3-574"/>
+                            <constraint firstItem="WbA-ON-TuO" firstAttribute="leading" secondItem="Ki4-an-CwP" secondAttribute="leading" id="k4m-XG-lvw"/>
+                            <constraint firstItem="Joc-bR-5V9" firstAttribute="leading" secondItem="Ki4-an-CwP" secondAttribute="leading" id="kMx-MY-Zyp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="Joc-bR-5V9" id="GWV-gY-sHX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+        </scene>
+    </scenes>
+</document>

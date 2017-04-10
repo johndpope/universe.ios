@@ -1,0 +1,8 @@
+platform :ios, '8.0'
+
+target 'Universe3' do
+    pod 'Starscream'
+    pod 'SwiftyBeaver'
+end
+
+use_frameworks!

@@ -1,0 +1,15 @@
+PODS:
+  - Starscream (2.0.3)
+  - SwiftyBeaver (1.1.4)
+
+DEPENDENCIES:
+  - Starscream
+  - SwiftyBeaver
+
+SPEC CHECKSUMS:
+  Starscream: 3fdd5c277e57cca6b5c406d274e3f34a7c88f2ce
+  SwiftyBeaver: 9216b6e163c145628ccc7c0126df4287880d6e1e
+
+PODFILE CHECKSUM: 969f04b0becffae28702c150d65574bdc3aa2c51
+
+COCOAPODS: 1.2.0

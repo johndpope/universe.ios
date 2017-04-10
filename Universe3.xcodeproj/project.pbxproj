@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A1B51931E3FA0A300B67DBE /* SCNVector3+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B51921E3FA0A300B67DBE /* SCNVector3+Math.swift */; };
+		3A2B10CF1E3BFF68001207C3 /* UGPhysic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B10CE1E3BFF68001207C3 /* UGPhysic.swift */; };
+		3A3261411E9A2CC6000F4714 /* UGGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A32613F1E9A2CC6000F4714 /* UGGameViewController.swift */; };
+		3A3261421E9A2CC6000F4714 /* UGPlanetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3261401E9A2CC6000F4714 /* UGPlanetViewController.swift */; };
+		3A3261441E9A2D78000F4714 /* UGCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3261431E9A2D78000F4714 /* UGCameraViewController.swift */; };
+		3A80D9C91E9AA28900ED1CA4 /* UGSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A80D9C81E9AA28900ED1CA4 /* UGSceneViewController.swift */; };
+		3AC077831E392B5600D84372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC077821E392B5600D84372 /* AppDelegate.swift */; };
+		3AC077851E392B5600D84372 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC077841E392B5600D84372 /* art.scnassets */; };
+		3AC0778A1E392B5600D84372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC077881E392B5600D84372 /* Main.storyboard */; };
+		3AC0778C1E392B5600D84372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC0778B1E392B5600D84372 /* Assets.xcassets */; };
+		3AC0778F1E392B5600D84372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC0778D1E392B5600D84372 /* LaunchScreen.storyboard */; };
+		3AE1EB361E3D20D600BF6F9A /* UGPlanetScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE1EB351E3D20D600BF6F9A /* UGPlanetScene.swift */; };
+		3AE1EB381E3D20F700BF6F9A /* UGPlanetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE1EB371E3D20F700BF6F9A /* UGPlanetView.swift */; };
+		C02359B89E4D2B9F3E04AED6 /* Pods_Universe3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D882B3FE657FA03DA74F83 /* Pods_Universe3.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A1B51921E3FA0A300B67DBE /* SCNVector3+Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SCNVector3+Math.swift"; path = "extensions/SCNVector3+Math.swift"; sourceTree = "<group>"; };
+		3A2B10CE1E3BFF68001207C3 /* UGPhysic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UGPhysic.swift; path = physics/UGPhysic.swift; sourceTree = "<group>"; };
+		3A32613F1E9A2CC6000F4714 /* UGGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UGGameViewController.swift; path = ViewControllers/UGGameViewController.swift; sourceTree = "<group>"; };
+		3A3261401E9A2CC6000F4714 /* UGPlanetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UGPlanetViewController.swift; path = ViewControllers/UGPlanetViewController.swift; sourceTree = "<group>"; };
+		3A3261431E9A2D78000F4714 /* UGCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UGCameraViewController.swift; path = ViewControllers/UGCameraViewController.swift; sourceTree = "<group>"; };
+		3A80D9C81E9AA28900ED1CA4 /* UGSceneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UGSceneViewController.swift; path = ViewControllers/UGSceneViewController.swift; sourceTree = "<group>"; };
+		3AC0777F1E392B5600D84372 /* Universe3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Universe3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC077821E392B5600D84372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AC077841E392B5600D84372 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		3AC077891E392B5600D84372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AC0778B1E392B5600D84372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AC0778E1E392B5600D84372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AC077901E392B5600D84372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE1EB351E3D20D600BF6F9A /* UGPlanetScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UGPlanetScene.swift; path = scenes/UGPlanetScene.swift; sourceTree = "<group>"; };
+		3AE1EB371E3D20F700BF6F9A /* UGPlanetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UGPlanetView.swift; path = views/UGPlanetView.swift; sourceTree = "<group>"; };
+		5D0F3EB314F05BF0E9750F57 /* Pods-Universe3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Universe3.release.xcconfig"; path = "Pods/Target Support Files/Pods-Universe3/Pods-Universe3.release.xcconfig"; sourceTree = "<group>"; };
+		C1C7908C9423EB704BE9CE3B /* Pods-Universe3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Universe3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Universe3/Pods-Universe3.debug.xcconfig"; sourceTree = "<group>"; };
+		F8D882B3FE657FA03DA74F83 /* Pods_Universe3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Universe3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AC0777C1E392B5600D84372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02359B89E4D2B9F3E04AED6 /* Pods_Universe3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A1B51911E3FA03D00B67DBE /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3A1B51921E3FA0A300B67DBE /* SCNVector3+Math.swift */,
+			);
+			name = extensions;
+			sourceTree = "<group>";
+		};
+		3A2B10CD1E3BFF5C001207C3 /* physics */ = {
+			isa = PBXGroup;
+			children = (
+				3A2B10CE1E3BFF68001207C3 /* UGPhysic.swift */,
+			);
+			name = physics;
+			sourceTree = "<group>";
+		};
+		3A32613E1E9A2CA8000F4714 /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A32613F1E9A2CC6000F4714 /* UGGameViewController.swift */,
+				3A80D9C81E9AA28900ED1CA4 /* UGSceneViewController.swift */,
+				3A3261431E9A2D78000F4714 /* UGCameraViewController.swift */,
+				3A3261401E9A2CC6000F4714 /* UGPlanetViewController.swift */,
+			);
+			name = "view controllers";
+			sourceTree = "<group>";
+		};
+		3AC077761E392B5600D84372 = {
+			isa = PBXGroup;
+			children = (
+				3AC077811E392B5600D84372 /* Universe3 */,
+				3AC077801E392B5600D84372 /* Products */,
+				8D06DDFD475847EB4F1664FC /* Pods */,
+				81FB71E539E93EE208BE7E2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3AC077801E392B5600D84372 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AC0777F1E392B5600D84372 /* Universe3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AC077811E392B5600D84372 /* Universe3 */ = {
+			isa = PBXGroup;
+			children = (
+				3A1B51911E3FA03D00B67DBE /* extensions */,
+				3A32613E1E9A2CA8000F4714 /* view controllers */,
+				3AE1EB341E3D1F7900BF6F9A /* views */,
+				3AE1EB311E3D0E5200BF6F9A /* scenes */,
+				3A2B10CD1E3BFF5C001207C3 /* physics */,
+				3AC077841E392B5600D84372 /* art.scnassets */,
+				3AC0778B1E392B5600D84372 /* Assets.xcassets */,
+				3AC077881E392B5600D84372 /* Main.storyboard */,
+				3AC0778D1E392B5600D84372 /* LaunchScreen.storyboard */,
+				3AC077901E392B5600D84372 /* Info.plist */,
+				3AC077821E392B5600D84372 /* AppDelegate.swift */,
+			);
+			path = Universe3;
+			sourceTree = "<group>";
+		};
+		3AE1EB311E3D0E5200BF6F9A /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				3AE1EB351E3D20D600BF6F9A /* UGPlanetScene.swift */,
+			);
+			name = scenes;
+			sourceTree = "<group>";
+		};
+		3AE1EB341E3D1F7900BF6F9A /* views */ = {
+			isa = PBXGroup;
+			children = (
+				3AE1EB371E3D20F700BF6F9A /* UGPlanetView.swift */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		81FB71E539E93EE208BE7E2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8D882B3FE657FA03DA74F83 /* Pods_Universe3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D06DDFD475847EB4F1664FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1C7908C9423EB704BE9CE3B /* Pods-Universe3.debug.xcconfig */,
+				5D0F3EB314F05BF0E9750F57 /* Pods-Universe3.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AC0777E1E392B5600D84372 /* Universe3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC077931E392B5600D84372 /* Build configuration list for PBXNativeTarget "Universe3" */;
+			buildPhases = (
+				176CC90F70AF3D67A5C34007 /* [CP] Check Pods Manifest.lock */,
+				3AC0777B1E392B5600D84372 /* Sources */,
+				3AC0777C1E392B5600D84372 /* Frameworks */,
+				3AC0777D1E392B5600D84372 /* Resources */,
+				9528B65DE3706593B0E44F24 /* [CP] Embed Pods Frameworks */,
+				8EF6D4B68FCAE85868E7AD9D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Universe3;
+			productName = Universe3;
+			productReference = 3AC0777F1E392B5600D84372 /* Universe3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AC077771E392B5600D84372 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Anton Rogachevskyi";
+				TargetAttributes = {
+					3AC0777E1E392B5600D84372 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 49Z8TZV7BC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3AC0777A1E392B5600D84372 /* Build configuration list for PBXProject "Universe3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AC077761E392B5600D84372;
+			productRefGroup = 3AC077801E392B5600D84372 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AC0777E1E392B5600D84372 /* Universe3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AC0777D1E392B5600D84372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC077851E392B5600D84372 /* art.scnassets in Resources */,
+				3AC0778F1E392B5600D84372 /* LaunchScreen.storyboard in Resources */,
+				3AC0778C1E392B5600D84372 /* Assets.xcassets in Resources */,
+				3AC0778A1E392B5600D84372 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		176CC90F70AF3D67A5C34007 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8EF6D4B68FCAE85868E7AD9D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Universe3/Pods-Universe3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9528B65DE3706593B0E44F24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Universe3/Pods-Universe3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AC0777B1E392B5600D84372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3261411E9A2CC6000F4714 /* UGGameViewController.swift in Sources */,
+				3AE1EB381E3D20F700BF6F9A /* UGPlanetView.swift in Sources */,
+				3A80D9C91E9AA28900ED1CA4 /* UGSceneViewController.swift in Sources */,
+				3A2B10CF1E3BFF68001207C3 /* UGPhysic.swift in Sources */,
+				3A3261441E9A2D78000F4714 /* UGCameraViewController.swift in Sources */,
+				3A3261421E9A2CC6000F4714 /* UGPlanetViewController.swift in Sources */,
+				3AE1EB361E3D20D600BF6F9A /* UGPlanetScene.swift in Sources */,
+				3AC077831E392B5600D84372 /* AppDelegate.swift in Sources */,
+				3A1B51931E3FA0A300B67DBE /* SCNVector3+Math.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3AC077881E392B5600D84372 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AC077891E392B5600D84372 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AC0778D1E392B5600D84372 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AC0778E1E392B5600D84372 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AC077911E392B5600D84372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AC077921E392B5600D84372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AC077941E392B5600D84372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C7908C9423EB704BE9CE3B /* Pods-Universe3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49Z8TZV7BC;
+				INFOPLIST_FILE = Universe3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrainCodeSpZoo.Universe3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3AC077951E392B5600D84372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D0F3EB314F05BF0E9750F57 /* Pods-Universe3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49Z8TZV7BC;
+				INFOPLIST_FILE = Universe3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrainCodeSpZoo.Universe3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AC0777A1E392B5600D84372 /* Build configuration list for PBXProject "Universe3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC077911E392B5600D84372 /* Debug */,
+				3AC077921E392B5600D84372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC077931E392B5600D84372 /* Build configuration list for PBXNativeTarget "Universe3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC077941E392B5600D84372 /* Debug */,
+				3AC077951E392B5600D84372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AC077771E392B5600D84372 /* Project object */;
+}
